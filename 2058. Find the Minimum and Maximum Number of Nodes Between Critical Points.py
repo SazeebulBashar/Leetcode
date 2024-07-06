@@ -8,7 +8,7 @@ class Solution:
     curr = head.next  # Point to the index 1.
 
     while curr.next:
-      if curr.val > prev.val and curr.val > curr.next.val or \
+      if curr.val > prev.val and curr.val > curr.next.val or
          curr.val < prev.val and curr.val < curr.next.val:
         if firstMaIndex == -1:  # Only assign once.
           firstMaIndex = index
